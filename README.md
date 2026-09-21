@@ -1,6 +1,6 @@
 # Builder stack handbook
 
-156 entries · last verified 2026-09-09 · 156 links checked · 0 dead
+156 entries · last verified 2026-09-21 · 156 links checked · 0 dead
 
 One founder's handbook for building websites, apps, dashboards, visuals and outbound with AI agents: where I get design references, the component libraries and prompt packs I start from, how I ship and check what the agent built, the image and video stack, which scraper for which data, and the skills I hand Claude Code. It merges my private Notion notes with the public link directory at [agentmatik.ai/links](https://agentmatik.ai/links). It is not a directory of everything that exists - if something is here, it earned its place in real work. The longer notes live in [FIELD-NOTES.md](FIELD-NOTES.md). Suggest a link by opening an issue (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 
@@ -57,14 +57,14 @@ What I would send a founder who has one evening: my highest-rated picks and the 
 - [AI UX Playground](https://aiuxplayground.com/prompts) - Copy-ready AI prompts for designers and PMs - landing-page copy, workflows, and multi-step design processes (free, no account) Why: Rare prompt set aimed at the design/PM workflow, not just code generation. · Web design and inspiration / Website prompts
 - [AI Website Prompt Generator](https://aiwebsitepromptgenerator.com) - A generator that writes high-quality website prompts to clone a layout, rebrand a page, match a style, or build from scratch (free, no account) Why: Turns a reference or an idea into a builder-ready prompt in one step. · Web design and inspiration / Website prompts
 - [AI with Remy](https://www.youtube.com/@aiwithremy) - Hands-on AI tutorials with a practical, non-hype angle (free, no account) Why: Consistently useful walkthroughs - rated Great in our creator database. · Learning / Creators
-- [anthropics/skills](https://github.com/anthropics/skills) - Anthropic's official open-source skill collection. Why: First stop for official, maintained skills - frontend design, skill creator, canvas, themes. · 175k stars · updated 2026-09 · Skills for builders / Skill collections and registries
-- [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) - Selectively curated list of the best skills, hooks, slash commands, orchestrators, and plugins for Claude Code (free, no account) Why: Stricter curation than most awesome-lists - things here tend to actually work. · 53k stars · updated 2026-09 · Skills for builders / Skill collections and registries
+- [anthropics/skills](https://github.com/anthropics/skills) - Anthropic's official open-source skill collection. Why: First stop for official, maintained skills - frontend design, skill creator, canvas, themes. · 177k stars · updated 2026-09 · Skills for builders / Skill collections and registries
+- [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) - Selectively curated list of the best skills, hooks, slash commands, orchestrators, and plugins for Claude Code (free, no account) Why: Stricter curation than most awesome-lists - things here tend to actually work. · 54k stars · updated 2026-09 · Skills for builders / Skill collections and registries
 - [Awesome Claude Design](https://github.com/rohitg00/awesome-claude-design) - A curated repo of Claude design prompts and recipes - including a 20-minute landing-page recipe (free, no account) Why: Open, versioned, and diff-able - the engineering approach to design prompts (843 stars). · 1.1k stars · MIT · updated 2026-04 · Web design and inspiration / Website prompts
-- [Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills) - Composio's curated list of Claude skills, resources, and tools (free, no account) Why: The best-maintained general directory when you want breadth. · 74k stars · updated 2026-08 · Skills for builders / Skill collections and registries
+- [Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills) - Composio's curated list of Claude skills, resources, and tools (free, no account) Why: The best-maintained general directory when you want breadth. · 75k stars · updated 2026-09 · Skills for builders / Skill collections and registries
 - [Behance](https://www.behance.net) - Adobe's creative network - vast galleries of branding, product, and web design projects (free, no account) Why: Broader and more art-directed than the dev-focused galleries - great for visual direction before you design. · Web design and inspiration / Website inspiration databases
 - [Behind the Craft](https://www.youtube.com/@peteryang) - Peter Yang's show on how the best builders actually work with AI - hands-on interviews, not punditry (free, no account) Why: One of the few AI shows where guests share real workflows you can copy the same day. · Learning / Podcasts and newsletters
 - [Claire Vo](https://www.youtube.com/@howiaipodcast) - The How I AI podcast - practitioners showing exactly how they use AI at work (free, no account) Why: Real screen-share workflows instead of talking heads. · Learning / Creators
-- [Claude Code UI Agents](https://github.com/mustafakendiguzel/claude-code-ui-agents) - A collection of Claude prompts and agent definitions built for UI/UX design and frontend tasks (free, no account) Why: Purpose-built for front-end work in Claude Code (560 stars). · 630 stars · MIT · updated 2025-08 · Web design and inspiration / Website prompts
+- [Claude Code UI Agents](https://github.com/mustafakendiguzel/claude-code-ui-agents) - A collection of Claude prompts and agent definitions built for UI/UX design and frontend tasks (free, no account) Why: Purpose-built for front-end work in Claude Code (560 stars). · 636 stars · MIT · updated 2025-08 · Web design and inspiration / Website prompts
 
 ## Web design and inspiration
 
@@ -85,7 +85,7 @@ Where I look before I let an agent touch a layout: the galleries I harvest refer
 
 - [21st.dev](https://21st.dev) - shadcn block and component marketplace with a large community registry plus the Magic AI MCP - quality varies (community-submitted), so vet each component; copy the prompt from there.
 - [Aceternity UI](https://ui.aceternity.com) - Stunning animated hero, 3D and spotlight components, but heavy and weak on accessibility - cherry-pick for marketing pages, skip for app screens and forms. Freemium.
-- [AstroWind](https://github.com/arthelokyo/astrowind) - Top Astro+Tailwind landing theme - Free. · 5.9k stars · MIT · updated 2026-09
+- [AstroWind](https://github.com/arthelokyo/astrowind) - Top Astro+Tailwind landing theme - Free. · 6k stars · MIT · updated 2026-09
 - [Cruip free templates](https://cruip.com/free-templates) - Free SaaS landing templates (Simple Light, Open) - lightweight Tailwind CSS starting points, GPL.
 - [daisyUI](https://daisyui.com) - Semantic Tailwind components as a plugin; works on any stack (Vue, Svelte, Astro, plain HTML), no JS lock-in. 41k stars, MIT.
 - [Flowbite](https://flowbite.com) - 400+ Tailwind components with the widest framework parity (official React, Vue, Svelte and Angular packages). 9k stars, free core plus paid Pro.
@@ -109,7 +109,7 @@ Where I look before I let an agent touch a layout: the galleries I harvest refer
 - [AI UX Playground](https://aiuxplayground.com/prompts) - Copy-ready AI prompts for designers and PMs - landing-page copy, workflows, and multi-step design processes (free, no account) Why: Rare prompt set aimed at the design/PM workflow, not just code generation.
 - [AI Website Prompt Generator](https://aiwebsitepromptgenerator.com) - A generator that writes high-quality website prompts to clone a layout, rebrand a page, match a style, or build from scratch (free, no account) Why: Turns a reference or an idea into a builder-ready prompt in one step.
 - [Awesome Claude Design](https://github.com/rohitg00/awesome-claude-design) - A curated repo of Claude design prompts and recipes - including a 20-minute landing-page recipe (free, no account) Why: Open, versioned, and diff-able - the engineering approach to design prompts (843 stars). · 1.1k stars · MIT · updated 2026-04
-- [Claude Code UI Agents](https://github.com/mustafakendiguzel/claude-code-ui-agents) - A collection of Claude prompts and agent definitions built for UI/UX design and frontend tasks (free, no account) Why: Purpose-built for front-end work in Claude Code (560 stars). · 630 stars · MIT · updated 2025-08
+- [Claude Code UI Agents](https://github.com/mustafakendiguzel/claude-code-ui-agents) - A collection of Claude prompts and agent definitions built for UI/UX design and frontend tasks (free, no account) Why: Purpose-built for front-end work in Claude Code (560 stars). · 636 stars · MIT · updated 2025-08
 - [Design Prompts](https://designprompts.dev) - 31+ design styles rendered from the same data, each with an AI-ready prompt to recreate the aesthetic (free, no account) Why: Fastest way to calibrate a style: compare identical content across 31 aesthetics, then copy the winner.
 - [Eversince.ai](https://eversince.ai) - Prompts for hyperrealistic motion on websites - the site now pitches itself as media infrastructure for AI agents.
 - [InstaLanding.ai](https://instalanding.ai) - One-shot prompts for cinematic, scroll-based, and interactive landing page components (free, no account) Why: The one-shot components actually look premium out of v0 or Lovable - no ten-round prompt surgery.
@@ -153,13 +153,13 @@ The admin templates, chart libraries and component systems I benchmark dashboard
 - [Float UI](https://floatui.com) - Good-looking multi-framework copy-paste. Effectively unmaintained (~Mar 2025) - cherry-pick, don't standardize.
 - [Flowbite Admin](https://github.com/themesberg/flowbite-admin-dashboard) - Free and open-source admin dashboard template with Tailwind dashboard widgets, built with Tailwind CSS and Flowbite. · 2.9k stars · MIT · updated 2025-03
 - [HeroUI (ex-NextUI)](https://www.heroui.com) - Gorgeous out of the box, built on React Aria for strong accessibility. 29k stars, MIT - just time the v2 to v3 migration carefully.
-- [Horizon AI Boilerplate](https://github.com/horizon-ui/shadcn-nextjs-boilerplate) - Full template. Pre-built AI chat and dashboard layouts (free, no account) · 646 stars · MIT · updated 2025-01
+- [Horizon AI Boilerplate](https://github.com/horizon-ui/shadcn-nextjs-boilerplate) - Full template. Pre-built AI chat and dashboard layouts (free, no account) · 649 stars · MIT · updated 2025-01
 - [Kokonut UI](https://kokonutui.com) - Large free pool of modern animated components, easy shadcn add install. 1.9k★, MIT.
 - [Mantine](https://mantine.dev) - Broadest batteries-included system (~100 components plus hooks, dates and charts), ideal for data-heavy admin apps. Imported dependency, 31k stars, MIT.
 - [Motion Primitives](https://motion-primitives.com) - Reusable, tasteful animation building blocks rather than full sections. 5.6k★, MIT (commit cadence slowing slightly) (free, no account)
 - [MUI X](https://mui.com) - Enterprise data grid and pickers on top of MUI's React component library - freemium.
-- [next-shadcn-admin-dashboard](https://github.com/arhamkhnz/next-shadcn-admin-dashboard) - Full template. Modern Next.js 16 and Tailwind v4 stack (free, no account) · 3k stars · MIT · updated 2026-09
-- [next-shadcn-dashboard-starter](https://github.com/Kiranism/next-shadcn-dashboard-starter) - Full template. Explicit AGENTS.md file for AI workflows (free, no account) · 7k stars · MIT · updated 2026-08
+- [next-shadcn-admin-dashboard](https://github.com/arhamkhnz/next-shadcn-admin-dashboard) - Full template. Modern Next.js 16 and Tailwind v4 stack (free, no account) · 3.1k stars · MIT · updated 2026-09
+- [next-shadcn-dashboard-starter](https://github.com/Kiranism/next-shadcn-dashboard-starter) - Full template. Explicit AGENTS.md file for AI workflows (free, no account) · 7k stars · MIT · updated 2026-09
 - [Nivo](https://nivo.rocks) - 50+ React chart types - supercharged React dataviz components, free. · also: [github.com](https://github.com/plouc/nivo)
 - [Nuxt Dashboard Template](https://github.com/nuxt-ui-templates/dashboard) - Full template. Clean and modern design (free, no account) · 1.1k stars · MIT · updated 2026-09
 - [Park UI](https://park-ui.com) - shadcn-style ownership across multiple frameworks (Panda CSS + Ark). 2.3k★ but cadence has stalled; watch what the Chakra org does with it.
@@ -170,7 +170,7 @@ The admin templates, chart libraries and component systems I benchmark dashboard
 - [Refine](https://refine.dev) - Platform. Headless architecture (free, no account)
 - [shadcn dashboard example](https://ui.shadcn.com/examples/dashboard) - The official shadcn/ui dashboard example - the closest thing to the Efferd look, free; start there and make it your own.
 - [shadcn-admin](https://github.com/satnaing/shadcn-admin) - Full template. Built on shadcn/ui and Tailwind CSS (free, no account) · 14k stars · MIT · updated 2026-09
-- [shadcn-dashboard-landing-template](https://github.com/shadcnstore/shadcn-dashboard-landing-template) - Full template. Dual framework support (Next.js and Vite) (free, no account) · 1.1k stars · MIT · updated 2026-02
+- [shadcn-dashboard-landing-template](https://github.com/shadcnstore/shadcn-dashboard-landing-template) - Full template. Dual framework support (Next.js and Vite) (free, no account) · 1.2k stars · MIT · updated 2026-02
 - [shadcn-ui-sidebar](https://github.com/salimi-my/shadcn-ui-sidebar) - Specialist. Custom shadcn/ui registry support for easy CLI installation (free, no account) · 1.8k stars · MIT · updated 2025-04
 - [shadcn/ui](https://ui.shadcn.com) - The foundation: copy-in primitives you own, accessible, the standard everything else builds on. 117k stars, MIT, reachable through the shadcn MCP.
 - [shadcn/ui blocks](https://ui.shadcn.com/blocks) - The official shadcn/ui blocks - dashboards, sidebars, charts, and full page sections you copy straight in (free, no account) Why: The dashboard blocks and charts are the fastest way to a clean operator UI on the shadcn stack - same components we assemble from.
@@ -180,10 +180,10 @@ The admin templates, chart libraries and component systems I benchmark dashboard
 - [Tabler](https://tabler.io) - Premium-quality free Bootstrap admin template with well-designed components and 6k icons.
 - [TailAdmin](https://tailadmin.com) - Free and open-source Tailwind CSS admin dashboard template in seven verticals, with HTML, React, Vue and Next versions - free core, paid Pro.
 - [Tailwind Plus](https://tailwindcss.com/plus) - Best-in-class marketing/app/ecommerce layout blocks from the Tailwind team. Paid ($299 once) but the highest-ROI paid asset here.
-- [TanStack Start Dashboard](https://github.com/Kiranism/tanstack-start-dashboard) - Full template. Uses modern stack (TanStack Start, React 19, Vite 7, Tailwind CSS v4) (free, no account) · 682 stars · MIT · updated 2026-08
-- [TanStack Table](https://github.com/TanStack/table) - Component library. Headless architecture allows 100% custom UI (free, no account) · 28k stars · MIT · updated 2026-08
+- [TanStack Start Dashboard](https://github.com/Kiranism/tanstack-start-dashboard) - Full template. Uses modern stack (TanStack Start, React 19, Vite 7, Tailwind CSS v4) (free, no account) · 749 stars · MIT · updated 2026-08
+- [TanStack Table](https://github.com/TanStack/table) - Component library. Headless architecture allows 100% custom UI (free, no account) · 28k stars · MIT · updated 2026-09
 - [Tremor](https://tremor.so) - 35+ dashboard blocks, KPI cards and charts for React - the best free option for dashboards and charts, copy-in code you own. Use the current tremorlabs/tremor repo, not the frozen npm package.
-- [Tremor OSS template](https://github.com/tremorlabs/template-dashboard-oss) - Free open-source SaaS dashboard template by Tremor, built on Next.js. · 517 stars · Apache-2.0 · updated 2025-10
+- [Tremor OSS template](https://github.com/tremorlabs/template-dashboard-oss) - Free open-source SaaS dashboard template by Tremor, built on Next.js. · 518 stars · Apache-2.0 · updated 2025-10
 - [v0](https://v0.app) - Vercel's prompt-to-UI generator on a shadcn/Next stack; own and review the output. Freemium (~$20/mo) - a generator, not a component "source."
 - [Windmill](https://github.com/estevanmaito/windmill-dashboard) - React plus Tailwind dashboard with dark mode - a multi-theme, completely accessible, production-ready dashboard template. Free. · 3k stars · MIT · updated 2024-02
 
@@ -229,7 +229,7 @@ The image and video stack: a five-phase production pipeline, the model aggregato
 
 ### Video editing
 
-- [Hyperframes](https://github.com/nateherkai/hyperframes-student-kit) - add-on to edit videos in Claude Code. · 678 stars · updated 2026-09
+- [Hyperframes](https://github.com/nateherkai/hyperframes-student-kit) - add-on to edit videos in Claude Code. · 890 stars · updated 2026-09
 
 ### Claude Design for video
 
@@ -270,7 +270,7 @@ Short on purpose - most of my GTM material is course content or other people's p
 
 ### Agents
 
-- [Agency Agents](https://github.com/msitarzewski/agency-agents) - A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. · 151k stars · MIT · updated 2026-09
+- [Agency Agents](https://github.com/msitarzewski/agency-agents) - A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. · 153k stars · MIT · updated 2026-09
 - [OpenClaw turned into an outbound sales team - ClawGTM (Jaynit Makwana on X)](https://x.com/jaynitmakwana/status/2038530995465695628) - The post that introduced ClawGTM: paste your website and get a ready-to-launch outbound pipeline from an OpenClaw setup acting as a full outbound sales team.
 
 My notes on this section: [GTM and sales](FIELD-NOTES.md#gtm-and-sales) (2 notes).
@@ -282,10 +282,10 @@ Skills I point Claude Code at when building products: the development skills fro
 ### Development skills
 
 - [Code Reviewer](https://jeffallan.github.io/claude-skills/skills/quality/code-reviewer) - Reviews diffs and files for bugs, security vulnerabilities, code smells, N+1 queries and architecture problems, then produces a prioritized review report - run it before opening a pull request (jeffallan/claude-skills).
-- [debug-skill (AlmogBaku)](https://github.com/AlmogBaku/debug-skill) - Let your coding agent debug like a human developer: set breakpoints, step through code, evaluate expressions - the way you actually debug. · 317 stars · MIT · updated 2026-04
+- [debug-skill (AlmogBaku)](https://github.com/AlmogBaku/debug-skill) - Let your coding agent debug like a human developer: set breakpoints, step through code, evaluate expressions - the way you actually debug. · 323 stars · MIT · updated 2026-04
 - [Feature Forge](https://jeffallan.github.io/claude-skills/skills/workflow/feature-forge) - Structured requirements workshops before you write code: feature specs, user stories, EARS-format requirements, acceptance criteria and implementation checklists (jeffallan/claude-skills).
-- [Git worktrees skill (obra/superpowers)](https://github.com/obra/superpowers/tree/main/skills/using-git-worktrees) - Use when feature work needs isolation from the current workspace or before executing an implementation plan - ensures an isolated workspace via native tools or a git worktree fallback (the skill's own description). · 283k stars · MIT · updated 2026-09
-- [Playwright Skill](https://github.com/testdino-hq/playwright-skill) - TestDino Playwright Skill: AI-powered guides for Playwright best practices, made by testdino.com. · 361 stars · MIT · updated 2026-09
+- [Git worktrees skill (obra/superpowers)](https://github.com/obra/superpowers/tree/main/skills/using-git-worktrees) - Use when feature work needs isolation from the current workspace or before executing an implementation plan - ensures an isolated workspace via native tools or a git worktree fallback (the skill's own description). · 289k stars · MIT · updated 2026-09
+- [Playwright Skill](https://github.com/testdino-hq/playwright-skill) - TestDino Playwright Skill: AI-powered guides for Playwright best practices, made by testdino.com. · 369 stars · MIT · updated 2026-09
 - [RAG Architect](https://jeffallan.github.io/claude-skills/skills/data-ml/rag-architect) - Designs production-grade RAG systems: chunking, embeddings, vector stores, hybrid search, reranking and retrieval evaluation (jeffallan/claude-skills).
 - [Secure Code Guardian](https://jeffallan.github.io/claude-skills/skills/security/secure-code-guardian) - Secure code by default when you build authentication, handle user input or want to prevent the OWASP Top 10 - password hashing, parameterized queries, CORS and CSP headers, input validation, JWT setup (jeffallan/claude-skills).
 - [Spec Miner](https://jeffallan.github.io/claude-skills/skills/workflow/spec-miner) - Reverse-engineers specifications from existing codebases - legacy, undocumented or inherited systems: maps dependencies, documents business logic, generates API and architecture docs (jeffallan/claude-skills).
@@ -293,17 +293,17 @@ Skills I point Claude Code at when building products: the development skills fro
 
 ### GTM skills
 
-- [GTM skills by Swan (swan-gtm/gtm-skills)](https://github.com/swan-gtm/gtm-skills) - Open, production-grade go-to-market skills for AI agents - prospecting, research, outreach, signals, pipeline, RevOps - as plain SKILL.md files any agent can read. Built and curated by Swan, authored by the GTM community. · 148 stars · MIT · updated 2026-09
+- [GTM skills by Swan (swan-gtm/gtm-skills)](https://github.com/swan-gtm/gtm-skills) - Open, production-grade go-to-market skills for AI agents - prospecting, research, outreach, signals, pipeline, RevOps - as plain SKILL.md files any agent can read. Built and curated by Swan, authored by the GTM community. · 158 stars · MIT · updated 2026-09
 
 ### Skill collections and registries
 
 - [AI Templates](https://www.aitmpl.com) - 1,000+ Claude Code components: 842 skills, 421 agents, 281 commands, 86 MCPs, and 57 hooks (free, no account) Why: Huge surface area - useful for discovering what categories of components even exist.
-- [anthropics/skills](https://github.com/anthropics/skills) - Anthropic's official open-source skill collection. Why: First stop for official, maintained skills - frontend design, skill creator, canvas, themes. · 175k stars · updated 2026-09
-- [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) - Selectively curated list of the best skills, hooks, slash commands, orchestrators, and plugins for Claude Code (free, no account) Why: Stricter curation than most awesome-lists - things here tend to actually work. · 53k stars · updated 2026-09
-- [Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills) - Composio's curated list of Claude skills, resources, and tools (free, no account) Why: The best-maintained general directory when you want breadth. · 74k stars · updated 2026-08
+- [anthropics/skills](https://github.com/anthropics/skills) - Anthropic's official open-source skill collection. Why: First stop for official, maintained skills - frontend design, skill creator, canvas, themes. · 177k stars · updated 2026-09
+- [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) - Selectively curated list of the best skills, hooks, slash commands, orchestrators, and plugins for Claude Code (free, no account) Why: Stricter curation than most awesome-lists - things here tend to actually work. · 54k stars · updated 2026-09
+- [Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills) - Composio's curated list of Claude skills, resources, and tools (free, no account) Why: The best-maintained general directory when you want breadth. · 75k stars · updated 2026-09
 - [Claude Skills Guide (jeffallan)](https://jeffallan.github.io/claude-skills/skills-guide) - A hand-written guide and catalog of practical Claude Code skills by category (free, no account) Why: Where several of our development skills (Feature Forge, Code Reviewer, The Fool) come from.
-- [gstack](https://github.com/garrytan/gstack) - Garry Tan's exact Claude Code setup - 23 opinionated tools acting as CEO, designer, engineering manager, release manager, and QA (free, no account) Why: A complete, working process for shipping with Claude Code - not a toolbox but a sprint: think, plan, build, review, test, ship. · 132k stars · MIT · updated 2026-09
-- [Marketing Skills](https://github.com/coreyhaines31/marketingskills) - CRO, copywriting, SEO, analytics, and growth engineering skills for Claude Code (free, no account) Why: The copywriting, seo-audit, and content-strategy skills are the standouts. · 49k stars · MIT · updated 2026-09
+- [gstack](https://github.com/garrytan/gstack) - Garry Tan's exact Claude Code setup - 23 opinionated tools acting as CEO, designer, engineering manager, release manager, and QA (free, no account) Why: A complete, working process for shipping with Claude Code - not a toolbox but a sprint: think, plan, build, review, test, ship. · 133k stars · MIT · updated 2026-09
+- [Marketing Skills](https://github.com/coreyhaines31/marketingskills) - CRO, copywriting, SEO, analytics, and growth engineering skills for Claude Code (free, no account) Why: The copywriting, seo-audit, and content-strategy skills are the standouts. · 51k stars · MIT · updated 2026-09
 - [skills.sh](https://www.skills.sh) - The leaderboard and registry for agent skills - installs, stars, and security audits per skill (free, no account) Why: Our primary source for vetting skills before they touch a client machine.
 
 ## Learning
@@ -313,17 +313,17 @@ Videos, creators and newsletters that shaped how I build - my own saves per topi
 ### Websites and apps
 
 - [Building Beautiful Websites with Claude Code Is Too Easy (Nate Herk)](https://www.youtube.com/watch?v=86HM0RUWhCk) - Five simple hacks for building and designing better websites in Claude Code - the video the screenshot loop comes from: let the agent screenshot its own output and iterate (Puppeteer); the resources are linked from the video.
-- [Claude Design Builds Beautiful 3D Websites Instantly (full tutorial)](https://www.youtube.com/watch?v=TcFeSjwTo7g&t=215s) - I used Claude Design to rebuild my AI Automation Society site and my personal site in about 20 minutes each, and the results felt way more polished than what I had before.
-- [Once You Know This, Building RAG Agents Becomes Easy in n8n](https://www.youtube.com/watch?v=kOKavHnlPik) - In this video, I break down the different ways you can handle retrieval and context in RAG systems when building AI agents in n8n.
-- [The NEW Nano Banana 2 + Claude Code = $10k Websites](https://www.youtube.com/watch?v=q0TgUtj6vIs) - In this video, I show you how to use Google's new Nano Banana 2 image model and Claude Code to build three fully animated websites that you could sell for thousands of dollars, and it only takes minutes.
+- [Claude Design Builds Beautiful 3D Websites Instantly (full tutorial)](https://www.youtube.com/watch?v=TcFeSjwTo7g&t=215s) - YouTube video by Nate Herk | AI Automation.
+- [Once You Know This, Building RAG Agents Becomes Easy in n8n](https://www.youtube.com/watch?v=kOKavHnlPik) - YouTube video by Nate Herk | AI Automation.
+- [The NEW Nano Banana 2 + Claude Code = $10k Websites](https://www.youtube.com/watch?v=q0TgUtj6vIs) - YouTube video by Nate Herk | AI Automation.
 
 ### Photos, video and design
 
-- [Claude Video Editing Just Became Unrecognizable](https://www.youtube.com/watch?v=Aw3BkmhYu4I) - In this video I'm showing you how to edit videos end to end using Claude Code as the orchestrator, with HyperFrames handling motion graphics and video-use handling the trimming.
+- [Claude Video Editing Just Became Unrecognizable](https://www.youtube.com/watch?v=Aw3BkmhYu4I) - YouTube video by Nate Herk | AI Automation.
 
 ### GTM and sales
 
-- [How a College Student Made $500k with Cold Email (Exact Framework)](https://www.youtube.com/watch?v=XB2xmX3USUI) - In this episode, I brought on Suvam. He generated over $500,000 in sales opportunities in six months using cold email as a beginner.
+- [How a College Student Made $500k with Cold Email (Exact Framework)](https://www.youtube.com/watch?v=XB2xmX3USUI) - YouTube video by Nate Herk | AI Automation.
 
 ### Videos
 
@@ -374,7 +374,7 @@ From there everything is automated and reproducible from this repo alone:
 
 Nothing in this README or in `FIELD-NOTES.md` is edited by hand. Fixes go to `data/overrides.json` (keyed by the entry id in `data/links.csv`, or by block id under `_notes` for a note) and the next build picks them up.
 
-Current build: 156 entries in 9 sections, 142 field notes. Links checked: 156, dead: 0, last check: 2026-09-09. What the sync excluded and why is in `data/_report.md`. The field notes are rendered into `FIELD-NOTES.md` by the same build.
+Current build: 156 entries in 9 sections, 142 field notes. Links checked: 156, dead: 0, last check: 2026-09-21. What the sync excluded and why is in `data/_report.md`. The field notes are rendered into `FIELD-NOTES.md` by the same build.
 
 ## License
 
