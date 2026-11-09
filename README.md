@@ -1,5 +1,7 @@
 # Builder stack handbook
 
+[![License](https://img.shields.io/github/license/mattzimak/builder-stack-handbook)](https://github.com/mattzimak/builder-stack-handbook/blob/main/LICENSE) ![Last commit](https://img.shields.io/github/last-commit/mattzimak/builder-stack-handbook?label=updated) ![156 entries](https://img.shields.io/badge/156%20entries-2ea043) ![0 dead links](https://img.shields.io/badge/0%20dead%20links-2ea043)
+
 156 entries · last verified 2026-09-09 · 156 links checked · 0 dead
 
 One founder's handbook for building websites, apps, dashboards, visuals and outbound with AI agents: where I get design references, the component libraries and prompt packs I start from, how I ship and check what the agent built, the image and video stack, which scraper for which data, and the skills I hand Claude Code. It merges my private Notion notes with the public link directory at [agentmatik.ai/links](https://agentmatik.ai/links). It is not a directory of everything that exists - if something is here, it earned its place in real work. The longer notes live in [FIELD-NOTES.md](FIELD-NOTES.md). Suggest a link by opening an issue (see [CONTRIBUTING.md](CONTRIBUTING.md)).
